@@ -1,0 +1,145 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixa-1{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 500px;
+    height: 1000px;
+    margin-left: 500px;
+    border-radius: 5px;
+    border: 3px solid darkturquoise;
+    
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: darkturquoise;
+    
+}
+#titulo-sexo{
+    margin-left: 50px;
+    width: 15px;
+    height: 15px;
+    color: darkturquoise;
+}
+#genero-radio{
+    margin-left: 35px;
+    margin-top: 30px;
+    border: 1px solid darkturquoise;
+    border-radius: 5px;
+    width: 190px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: turquoise;
+    background-color: white;
+}
+#titulo-idade{
+    margin-left:50px;
+    color: darkturquoise;
+}
+#idade-css{
+    
+}
+#idade{
+    margin-left: 35px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    
+    border: 3px solid darkturquoise;
+}
+#enviar1{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid darkturquoise;
+    color: white;
+    background-color: darkturquoise;
+}
+#titulo-altura{
+    margin-left: 50px;
+    color: darkturquoise;
+}
+#altura{
+    width: 100px;
+    margin-left: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 3px solid darkturquoise;
+
+}
+#enviar2{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid darkturquoise;
+    color: white;
+    background-color: darkturquoise;
+}
+#titulo-peso{
+    margin-left: 50px;
+    color: darkturquoise;
+}
+#peso{
+    width: 100px;
+    margin-left: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 3px solid darkturquoise;
+}
+#enviar3{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid darkturquoise;
+    color: white;
+    background-color: darkturquoise;  
+}
+#titulo-fator{
+    margin-left: 35px;
+    color:darkturquoise;
+}
+#fator-css{
+    margin-left: 35px;
+}
+#fator{
+    height: 40px;
+    border-radius: 5px;
+    width: 300px;
+    border: 3px solid darkturquoise;
+}
+
+#calcular{
+    margin-top: 30px;
+    margin-left: 170px;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    border: 3px solid ;
+    color: darkturquoise;
+}
+
+#caixa-resultado{
+    background-color: lightgray;
+    width: 400px;
+    margin-left: 50px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    color: darkgray;
+}
+#resultados{
+    margin-left: 130px;
+}
