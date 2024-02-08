@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estudo</title>
+    <link rel="stylesheet" href="laco.css">
+</head>
+<body>
+    <div id="caixa-1">
+    <div><h1 id="titulo">Gasto calorico diario</h1></div>
+    <h2 id="titulo-sexo">Sexo</h2>
+    <div id="genero-radio">
+        
+        <input type="radio" name="sexo" id="masculino">Masculino
+        <input type="radio" name="sexo" id="feminino">Feminino
+        
+    </div>
+    
+    <div><h2 id="titulo-idade">Idade</h2></div>
+    <div id="idade-css">
+        
+        <input type="number" name="idade" id="idade" placeholder="Ex: 25">
+        <input type="submit" value="enviar" id="enviar1">
+        
+    </div>
+
+    
+    <div><h2 id="titulo-altura">Altura</h2></div>
+    <div id="altura-css">
+        
+        <input type="number" name="peso" id="altura" placeholder="ex: 175 ">
+        <input type="submit" value="enviar" id="enviar2">
+        
+    </div>
+
+    <div><h2 id="titulo-peso">Peso</h2></div>
+    <div id="peso-css">
+        
+        <input type="number" name="peso" id="peso" placeholder="ex: 70,00">
+        <input type="submit" value="enviar" id="enviar3">
+        
+    </div>
+    <div><h2 id="titulo-fator">Fator de atividade</h2></div>
+    <div id="fator-css">
+        
+        <select name="fator" id="fator">
+            <option value="1.2" id="sedentario">Sedentário (pouco ou nenhum exercício)</option>
+            <option value="1.375" id="levemente">Levemente ativo (exercício leve/esporádico)</option>
+            <option value="1.55" id="moderadamente">Moderadamente ativo (exercício moderado 3-4 dias por semana)</option>
+            <option value="1.725" id="muito">Muito ativo (exercício intenso diariamente)</option>
+            <option value="1.9" id="extremamente">Extremamente ativo (exercício intenso 2x por dia)</option>
+            
+        </select>
+    </div>
+    <div id="calculo">
+        <input type="button" value="calcular" id="calcular">
+    </div>
+    <div id="caixa-resultado"><h2 id="resultado">Seu gasto calorico é:</h2><br>
+        <p id="resultados"> </p>
+    
+    </div>
+    </div>
